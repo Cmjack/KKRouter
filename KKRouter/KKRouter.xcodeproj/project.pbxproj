@@ -13,7 +13,7 @@
 		3F1B183B1EF7A1B800F93284 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F1B18391EF7A1B800F93284 /* Main.storyboard */; };
 		3F1B183D1EF7A1B800F93284 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F1B183C1EF7A1B800F93284 /* Assets.xcassets */; };
 		3F1B18401EF7A1B800F93284 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F1B183E1EF7A1B800F93284 /* LaunchScreen.storyboard */; };
-		3F1B184A1EF7A26100F93284 /* KKRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F1B18491EF7A26100F93284 /* KKRouter.m */; };
+		3F1B184F1EF7A59200F93284 /* KKRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F1B184E1EF7A59200F93284 /* KKRouter.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,8 +27,8 @@
 		3F1B183C1EF7A1B800F93284 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3F1B183F1EF7A1B800F93284 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3F1B18411EF7A1B800F93284 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3F1B18481EF7A26100F93284 /* KKRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKRouter.h; sourceTree = "<group>"; };
-		3F1B18491EF7A26100F93284 /* KKRouter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKRouter.m; sourceTree = "<group>"; };
+		3F1B184D1EF7A59200F93284 /* KKRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKRouter.h; sourceTree = "<group>"; };
+		3F1B184E1EF7A59200F93284 /* KKRouter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKRouter.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,7 +61,7 @@
 		3F1B182F1EF7A1B800F93284 /* KKRouter */ = {
 			isa = PBXGroup;
 			children = (
-				3F1B18471EF7A26100F93284 /* Classes */,
+				3F1B184B1EF7A59200F93284 /* Pod */,
 				3F1B18331EF7A1B800F93284 /* AppDelegate.h */,
 				3F1B18341EF7A1B800F93284 /* AppDelegate.m */,
 				3F1B18361EF7A1B800F93284 /* ViewController.h */,
@@ -83,11 +83,20 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		3F1B18471EF7A26100F93284 /* Classes */ = {
+		3F1B184B1EF7A59200F93284 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				3F1B18481EF7A26100F93284 /* KKRouter.h */,
-				3F1B18491EF7A26100F93284 /* KKRouter.m */,
+				3F1B184C1EF7A59200F93284 /* Classes */,
+			);
+			name = Pod;
+			path = ../../Pod;
+			sourceTree = "<group>";
+		};
+		3F1B184C1EF7A59200F93284 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				3F1B184D1EF7A59200F93284 /* KKRouter.h */,
+				3F1B184E1EF7A59200F93284 /* KKRouter.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -163,9 +172,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F1B184F1EF7A59200F93284 /* KKRouter.m in Sources */,
 				3F1B18381EF7A1B800F93284 /* ViewController.m in Sources */,
 				3F1B18351EF7A1B800F93284 /* AppDelegate.m in Sources */,
-				3F1B184A1EF7A26100F93284 /* KKRouter.m in Sources */,
 				3F1B18321EF7A1B800F93284 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
