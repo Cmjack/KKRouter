@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
 
 
   s.name         = "KKRouter"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "router."
 
   s.description  = <<-DESC
